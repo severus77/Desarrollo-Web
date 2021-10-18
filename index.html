@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>fitnes</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+
+            <div class="contenedor">
+
+                <p class="logo">Fitness Gym Home </p>
+                <img src="imagenes/menu.png" class="menu-icon">
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Pricing</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="izquierda">
+            <p>BIGGER.FASTER.STRONGER</p>
+            <h1>DIVI FITNESS GYM</h1>
+            <a href="">GET STARTED TODAY</a>
+        </div>
+
+        <div class="derecha">
+            <div class="contenido">
+                <h2>TRY A FREE 3 DAY GYM PASS</h2>
+                <a href="">GET YOUR PASS</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs">
+        <div class="contenedor">
+            <div class="rojo cero">0.00</div>
+            <div class="rojo ini">INITIATION FEE </div>
+            <h2>FEATURED PROGRAMS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor</p>
+
+            <a href="">ALL PROGRAMS</a>
+            <div class="contenedor-programs">
+                <div class="program" id="uno">
+                    <h3>PERSONAL TRAINING</h3>
+                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam velullamcorper sit amet ligula.
+                        Pellentesque in ipsum id</p>
+                </div>
+                <div class="program" id="dos">
+                    <h3>PERSONAL TRAINING</h3>
+                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Pellentesque
+                        in ipsum id</p>
+                </div>
+                <div class="program" id="tres">
+                    <h3>PERSONAL TRAINING</h3>
+                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                        Pellentesque in ipsum id</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-video">
+        <div class="contenedor">
+            <video id="video" width="900px" height="600px" src="imagenes/video.mp4"></video>
+            <div class="botones">
+                <button id="boton" onClick="playVideo()"><i class="far fa-play-circle"></i></button>
+            </div>
+        </div>
+
+    </section>
+    <script>
+        var video = document.getElementById('video');
+        var boton = document.getElementById('boton');
+
+        function playVideo() {
+            video.play();
+            boton.style.display = 'none';
+
+        }
+        video.addEventListener('ended', function() {
+            boton.style.display = 'block';
+        })
+    </script>
+    <section id="join">
+        <div class="cajaizquierda">
+            <a>Join Now</a>
+            <img id="uno" src="imagenes/izq.jpg" alt="">
+        </div>
+
+        <div class="cajaderecha">
+            <img id="dos" src="imagenes/der1.jpg" alt="">
+            <img id="tres" src="imagenes/der2.jpg" alt="">
+
+
+        </div>
+
+
+    </section>
+    <section id="testimonials">
+        <div class="contenedor">
+            <span class="comillas">"</span>
+            <h2>TESTIMONIALS</h2>
+            <a href="">Join the movement</a>
+
+            <div class="contenedor-testimonials">
+
+                <div class="testimonials">
+                    <div class="contenido">
+                        <div class="foto"></div>
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in”</p>
+                    </div>
+                    <p class="nombre">Marissa James</p>
+
+                </div>
+
+                <div class="testimonials">
+                    <div class="contenido">
+                        <div class="foto"></div>
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in”</p>
+                    </div>
+                    <p class="nombre">Marissa James</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="izquierda">
+            <p>BIGGER.FASTER.STRONGER</p>
+            <h2>DIVINATION</h2>
+            <form action="">
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="email addres">
+                <textarea placeholder="Message"></textarea>
+                <input type="submit" value="SUBMIT">
+            </form>
+
+        </div>
+        <div class="derecha">
+            <div class="gym-hours">
+                <h2>GYM HOURS</h2>
+                <ul>
+                    <li>Monday-Friday: 5am – 11pm </li>
+                    <li>Monday-Friday: 5am – 11pm </li>
+                    <li>Monday-Friday: 5am – 11pm </li>
+
+                </ul>
+
+            </div>
+            <div class="caja-dos">
+                <h2>FREE 3 DAY GYM PASS</h2>
+                <a href="">GET STARTED </a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

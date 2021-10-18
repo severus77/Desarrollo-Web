@@ -1,0 +1,677 @@
+                                                                                                                                                                body {
+                                                                                                                                                                    margin: 0;
+                                                                                                                                                                    padding: 0;
+                                                                                                                                                                    font-family: 'poppins';
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .menu {
+                                                                                                                                                                    padding: 9px 20px;
+                                                                                                                                                                    background-color: #fff;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .menu .contenedor {
+                                                                                                                                                                    display: flex;
+                                                                                                                                                                    justify-content: space-between;
+                                                                                                                                                                    align-items: center;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .contenedor {
+                                                                                                                                                                    width: 90%;
+                                                                                                                                                                    max-width: 1280px;
+                                                                                                                                                                    margin: auto;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                header .logo {
+                                                                                                                                                                    color: #000;
+                                                                                                                                                                    font-size: 23px;
+                                                                                                                                                                    font-weight: bolder;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                nav ul {
+                                                                                                                                                                    display: flex;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                nav li {
+                                                                                                                                                                    list-style: none;
+                                                                                                                                                                    margin: 0px 20px;
+                                                                                                                                                                    font-size: 16px;
+                                                                                                                                                                }
+                                                                                                                                                                /* section intro */
+                                                                                                                                                                
+                                                                                                                                                                #intro {
+                                                                                                                                                                    background: url(imagenes/intro.jpg);
+                                                                                                                                                                    background-size: cover;
+                                                                                                                                                                    background-position: center;
+                                                                                                                                                                    font-family: 'Oswald';
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #intro {
+                                                                                                                                                                    display: flex;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #intro .izquierda {
+                                                                                                                                                                    background-color: rgba(255, 255, 255, 0.85);
+                                                                                                                                                                    width: 66%;
+                                                                                                                                                                    padding: 66px 75px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #intro .derecha {
+                                                                                                                                                                    width: 57%;
+                                                                                                                                                                    height: 503px;
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0)80%, #fff 80%);
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #intro .contenido {
+                                                                                                                                                                    background-color: red;
+                                                                                                                                                                    padding: 1px 50px 70px 50px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #intro .izquierda p {
+                                                                                                                                                                    letter-spacing: 18px;
+                                                                                                                                                                    font-size: 15px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #intro .izquierda h1 {
+                                                                                                                                                                    font-size: 66px;
+                                                                                                                                                                    font-weight: 300;
+                                                                                                                                                                    letter-spacing: 19px;
+                                                                                                                                                                    margin: 0;
+                                                                                                                                                                    margin-bottom: 30px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #intro .izquierda a {
+                                                                                                                                                                    font-size: 20px;
+                                                                                                                                                                    letter-spacing: 7px;
+                                                                                                                                                                    text-decoration: none;
+                                                                                                                                                                    color: black;
+                                                                                                                                                                    border-bottom: 2px solid red;
+                                                                                                                                                                    padding-bottom: 10px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #intro .derecha h2 {
+                                                                                                                                                                    font-size: 30px;
+                                                                                                                                                                    font-weight: 400;
+                                                                                                                                                                    letter-spacing: 5px;
+                                                                                                                                                                    margin-bottom: 50px;
+                                                                                                                                                                    margin: 0
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #intro .derecha a {
+                                                                                                                                                                    font-size: 20px;
+                                                                                                                                                                    letter-spacing: 7px;
+                                                                                                                                                                    text-decoration: none;
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                    border: 1px solid #fff;
+                                                                                                                                                                    padding: 20px;
+                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                }
+                                                                                                                                                                /* programs */
+                                                                                                                                                                
+                                                                                                                                                                #programs {
+                                                                                                                                                                    padding-top: 90px;
+                                                                                                                                                                    text-align: center;
+                                                                                                                                                                    font-family: 'Oswald';
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #programs .contenedor {
+                                                                                                                                                                    width: 80%;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #programs .rojo {
+                                                                                                                                                                    color: red;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #programs .cero {
+                                                                                                                                                                    font-size: 80px;
+                                                                                                                                                                    margin-bottom: 0;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #programs .ini {
+                                                                                                                                                                    font-size: 15px;
+                                                                                                                                                                    letter-spacing: 18px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #programs .contenedor h2 {
+                                                                                                                                                                    font-size: 65PX;
+                                                                                                                                                                    font-weight: 300;
+                                                                                                                                                                    letter-spacing: 15px;
+                                                                                                                                                                    margin: 0;
+                                                                                                                                                                    margin-top: 25px;
+                                                                                                                                                                    margin-bottom: 20px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #programs p {
+                                                                                                                                                                    color: #666;
+                                                                                                                                                                    font-family: 'Open Sans';
+                                                                                                                                                                    font-size: 16px;
+                                                                                                                                                                    width: 90%;
+                                                                                                                                                                    line-height: 30px;
+                                                                                                                                                                    margin: auto;
+                                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                                    margin-bottom: 40px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #programs a {
+                                                                                                                                                                    font-size: 20px;
+                                                                                                                                                                    text-decoration: none;
+                                                                                                                                                                    color: black;
+                                                                                                                                                                    letter-spacing: 8px;
+                                                                                                                                                                    border-bottom: 2px solid red;
+                                                                                                                                                                    padding: 0px 15px 15px 15px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #programs .contenedor-programs {
+                                                                                                                                                                    display: flex;
+                                                                                                                                                                    width: 88%;
+                                                                                                                                                                    margin: auto;
+                                                                                                                                                                    margin-top: 50px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #programs .contenedor-programs h2 {
+                                                                                                                                                                    font-size: 22px;
+                                                                                                                                                                    font-weight: 500;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #programs #uno {
+                                                                                                                                                                    background: #2A2E3F;
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #uno p,
+                                                                                                                                                                #dos p,
+                                                                                                                                                                #tres p {
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                    text-align: left;
+                                                                                                                                                                    width: 100%;
+                                                                                                                                                                    margin-bottom: 0px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                h3 {
+                                                                                                                                                                    font-size: 25px;
+                                                                                                                                                                    font-weight: 400;
+                                                                                                                                                                    letter-spacing: 4px;
+                                                                                                                                                                    text-align: left;
+                                                                                                                                                                    margin: 0;
+                                                                                                                                                                    margin-bottom: 16px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .program {
+                                                                                                                                                                    padding: 45px 47px;
+                                                                                                                                                                    box-shadow: 50px 70px 120px -42px rgba(0, 0, 0, 0.3);
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #dos {
+                                                                                                                                                                    background: red;
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                    position: relative;
+                                                                                                                                                                    top: 120px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #tres {
+                                                                                                                                                                    color: #000;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #tres p {
+                                                                                                                                                                    color: #000;
+                                                                                                                                                                }
+                                                                                                                                                                /* section video */
+                                                                                                                                                                
+                                                                                                                                                                #section-video {
+                                                                                                                                                                    padding-top: 120px;
+                                                                                                                                                                    text-align: center;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #section-video .contenedor {
+                                                                                                                                                                    position: relative;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #section-video .botones {
+                                                                                                                                                                    position: absolute;
+                                                                                                                                                                    top: 35%;
+                                                                                                                                                                    left: 45%;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #section-video i {
+                                                                                                                                                                    font-size: 120px;
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #boton {
+                                                                                                                                                                    background: none;
+                                                                                                                                                                    border: none;
+                                                                                                                                                                }
+                                                                                                                                                                /* join now */
+                                                                                                                                                                
+                                                                                                                                                                #join {
+                                                                                                                                                                    padding-top: 190px;
+                                                                                                                                                                    display: flex;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #join .cajaizquierda {
+                                                                                                                                                                    width: 50%;
+                                                                                                                                                                    height: 340px;
+                                                                                                                                                                    background: #fa2a20;
+                                                                                                                                                                    margin-left: 100px;
+                                                                                                                                                                    position: relative;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #join .cajaderecha {
+                                                                                                                                                                    width: 49%;
+                                                                                                                                                                    background: url(imagenes/join-back.jpg);
+                                                                                                                                                                    background-size: cover;
+                                                                                                                                                                    position: relative;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #join a {
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                    border: #fff solid 1px;
+                                                                                                                                                                    position: absolute;
+                                                                                                                                                                    padding: 15px 30px;
+                                                                                                                                                                    text-decoration: none;
+                                                                                                                                                                    font-family: 'Oswald';
+                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                    letter-spacing: 5px;
+                                                                                                                                                                    top: 8%;
+                                                                                                                                                                    left: 30%;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #join #uno {
+                                                                                                                                                                    position: absolute;
+                                                                                                                                                                    left: 56%;
+                                                                                                                                                                    top: 24%;
+                                                                                                                                                                    z-index: 1;
+                                                                                                                                                                    width: 44%;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #join #dos {
+                                                                                                                                                                    position: absolute;
+                                                                                                                                                                    top: -43%;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #join #tres {
+                                                                                                                                                                    position: absolute;
+                                                                                                                                                                    left: 49%;
+                                                                                                                                                                    top: 24%;
+                                                                                                                                                                    width: 44%;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #join img {
+                                                                                                                                                                    width: 49%;
+                                                                                                                                                                }
+                                                                                                                                                                /* testimonials */
+                                                                                                                                                                
+                                                                                                                                                                #testimonials {
+                                                                                                                                                                    padding: 90px;
+                                                                                                                                                                    text-align: center;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .comillas {
+                                                                                                                                                                    color: #fa2a20;
+                                                                                                                                                                    font-size: 120px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #testimonials h2 {
+                                                                                                                                                                    font-size: 63px;
+                                                                                                                                                                    font-weight: 300;
+                                                                                                                                                                    font-family: 'Oswald';
+                                                                                                                                                                    letter-spacing: 15px;
+                                                                                                                                                                    margin: 0;
+                                                                                                                                                                    margin-bottom: 35px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #testimonials a {
+                                                                                                                                                                    text-decoration: none;
+                                                                                                                                                                    font-family: 'Oswald';
+                                                                                                                                                                    letter-spacing: 5px;
+                                                                                                                                                                    font-size: 22px;
+                                                                                                                                                                    text-transform: uppercase;
+                                                                                                                                                                    color: #000;
+                                                                                                                                                                    border-bottom: #fa2a20 2px solid;
+                                                                                                                                                                    padding: 0px 10px 10px 10px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .contenedor-testimonials {
+                                                                                                                                                                    margin-top: 90px;
+                                                                                                                                                                    display: flex;
+                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .testimonials {
+                                                                                                                                                                    width: 50%;
+                                                                                                                                                                    margin-right: 40px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .testimonials .contenido {
+                                                                                                                                                                    display: flex;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .foto {
+                                                                                                                                                                    background: url(imagenes/testimonial.jpg);
+                                                                                                                                                                    background-size: cover;
+                                                                                                                                                                    width: 390px;
+                                                                                                                                                                    height: 85px;
+                                                                                                                                                                    background-position: center;
+                                                                                                                                                                    border-radius: 100%;
+                                                                                                                                                                    margin-top: 20px;
+                                                                                                                                                                    margin-right: 15px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .testimonials p {
+                                                                                                                                                                    color: #666;
+                                                                                                                                                                    font-size: 16px;
+                                                                                                                                                                    font-family: 'Open Sans';
+                                                                                                                                                                    text-align: left;
+                                                                                                                                                                    line-height: 30px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                p.nombre {
+                                                                                                                                                                    font-weight: bold;
+                                                                                                                                                                    margin-left: 120px;
+                                                                                                                                                                }
+                                                                                                                                                                /* contacto */
+                                                                                                                                                                
+                                                                                                                                                                #contacto {
+                                                                                                                                                                    display: flex;
+                                                                                                                                                                    align-items: center;
+                                                                                                                                                                    background: url(imagenes/contacto.jpg);
+                                                                                                                                                                    background-size: cover;
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #contacto .izquierda {
+                                                                                                                                                                    padding: 100px;
+                                                                                                                                                                    width: 49%;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #contacto .izquierda p {
+                                                                                                                                                                    letter-spacing: 18px;
+                                                                                                                                                                    font-family: 'Oswald';
+                                                                                                                                                                    font-size: 15px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #contacto .izquierda h2 {
+                                                                                                                                                                    font-size: 70px;
+                                                                                                                                                                    font-weight: 100;
+                                                                                                                                                                    letter-spacing: 18px;
+                                                                                                                                                                    font-family: 'Oswald';
+                                                                                                                                                                    margin: 0;
+                                                                                                                                                                    margin-bottom: 25px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #contacto form input[type="text"],
+                                                                                                                                                                #contacto form input[type="email"],
+                                                                                                                                                                #contacto form textarea {
+                                                                                                                                                                    display: flex;
+                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                    width: 100%;
+                                                                                                                                                                    background: none;
+                                                                                                                                                                    border: none;
+                                                                                                                                                                    border-bottom: #fff 1px solid;
+                                                                                                                                                                    padding-bottom: 15px;
+                                                                                                                                                                    margin-bottom: 30px;
+                                                                                                                                                                    font-size: 18px;
+                                                                                                                                                                    font-family: 'Oswald';
+                                                                                                                                                                    letter-spacing: 2px;
+                                                                                                                                                                    text-transform: uppercase;
+                                                                                                                                                                    font-weight: 100;
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                 ::placeholder {
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #contacto input[type="submit"] {
+                                                                                                                                                                    float: right;
+                                                                                                                                                                    background: none;
+                                                                                                                                                                    color: #fff;
+                                                                                                                                                                    padding: 20px 35px;
+                                                                                                                                                                    border: #fff solid 1px;
+                                                                                                                                                                    font-size: 17px;
+                                                                                                                                                                    letter-spacing: 3px;
+                                                                                                                                                                    font-weight: 400;
+                                                                                                                                                                    font-family: 'Oswald';
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                #contacto .derecha {
+                                                                                                                                                                    width: 36%;
+                                                                                                                                                                    background: #f7291f;
+                                                                                                                                                                    align-self: flex-end;
+                                                                                                                                                                    padding: 50px 50px 50px 50px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .gym-hours {
+                                                                                                                                                                    box-shadow: 0px 70px 120px -30px rgba(0, 0, 0, 0.3);
+                                                                                                                                                                    padding: 30px;
+                                                                                                                                                                    padding-bottom: 30px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .gym-hours h2 {
+                                                                                                                                                                    font-family: 'Oswald';
+                                                                                                                                                                    font-weight: 400;
+                                                                                                                                                                    font-size: 25px;
+                                                                                                                                                                    letter-spacing: 3px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .gym-hours ul {
+                                                                                                                                                                    padding: 0
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .gym-hours li {
+                                                                                                                                                                    list-style: none;
+                                                                                                                                                                    font-family: 'Rubik';
+                                                                                                                                                                    font-size: 15px;
+                                                                                                                                                                    font-weight: 300;
+                                                                                                                                                                    margin-bottom: 15px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .caja-dos {
+                                                                                                                                                                    background: #fff;
+                                                                                                                                                                    padding: 30px;
+                                                                                                                                                                    color: black;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .caja-dos h2 {
+                                                                                                                                                                    font-family: 'Oswald';
+                                                                                                                                                                    font-weight: 400;
+                                                                                                                                                                    font-size: 25px;
+                                                                                                                                                                    letter-spacing: 2px;
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                .caja-dos a {
+                                                                                                                                                                    text-decoration: none;
+                                                                                                                                                                    border: red 1px solid;
+                                                                                                                                                                    padding: 20px 30px;
+                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                    letter-spacing: 5px;
+                                                                                                                                                                    margin-top: 20px;
+                                                                                                                                                                }
+                                                                                                                                                                /* RESPONSIVE DESIGN  */
+                                                                                                                                                                
+                                                                                                                                                                .menu-icon {
+                                                                                                                                                                    display: none
+                                                                                                                                                                }
+                                                                                                                                                                
+                                                                                                                                                                @media screen and (max-width:800px) {
+                                                                                                                                                                    .menu-icon {
+                                                                                                                                                                        display: block;
+                                                                                                                                                                    }
+                                                                                                                                                                    nav {
+                                                                                                                                                                        position: absolute;
+                                                                                                                                                                        background: #000;
+                                                                                                                                                                        width: 100%;
+                                                                                                                                                                        top: 15%;
+                                                                                                                                                                        left: 0;
+                                                                                                                                                                        display: none;
+                                                                                                                                                                    }
+                                                                                                                                                                    nav ul {
+                                                                                                                                                                        display: block;
+                                                                                                                                                                        color: #fff;
+                                                                                                                                                                    }
+                                                                                                                                                                    nav li {
+                                                                                                                                                                        margin-bottom: 25px;
+                                                                                                                                                                    }
+                                                                                                                                                                    nav a {
+                                                                                                                                                                        color: #fff;
+                                                                                                                                                                    }
+                                                                                                                                                                    /* intro */
+                                                                                                                                                                    #intro {
+                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                        background-size: cover;
+                                                                                                                                                                    }
+                                                                                                                                                                    #intro .contenido {
+                                                                                                                                                                        padding: 30px 50px 40px 50px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #intro .izquierda {
+                                                                                                                                                                        width: 85%;
+                                                                                                                                                                        padding: 35px 28px;
+                                                                                                                                                                        height: 250px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #intro .izquierda p {
+                                                                                                                                                                        letter-spacing: 8px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #intro .izquierda h1 {
+                                                                                                                                                                        letter-spacing: 13px;
+                                                                                                                                                                        font-size: 35px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #intro .izquierda a {
+                                                                                                                                                                        font-size: 13px;
+                                                                                                                                                                        letter-spacing: 5px;
+                                                                                                                                                                        padding-right: 15px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #intro .derecha {
+                                                                                                                                                                        width: 100%;
+                                                                                                                                                                        height: 200px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #intro .derecha a {
+                                                                                                                                                                        letter-spacing: 4px;
+                                                                                                                                                                        font-size: 13px;
+                                                                                                                                                                        margin-top: 20px;
+                                                                                                                                                                    }
+                                                                                                                                                                    /* programs */
+                                                                                                                                                                    #programs .contenedor {
+                                                                                                                                                                        width: 90%;
+                                                                                                                                                                    }
+                                                                                                                                                                    #programs .cero {
+                                                                                                                                                                        font-size: 57px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #programs .ini {
+                                                                                                                                                                        letter-spacing: 12px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #programs .contenedor h2 {
+                                                                                                                                                                        font-size: 35px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #programs p {
+                                                                                                                                                                        width: 100%;
+                                                                                                                                                                    }
+                                                                                                                                                                    #programs a {
+                                                                                                                                                                        font-size: 15px;
+                                                                                                                                                                        letter-spacing: 5px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #programs .contenedor-programs {
+                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                    }
+                                                                                                                                                                    #dos {
+                                                                                                                                                                        top: 40px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #tres {
+                                                                                                                                                                        margin-top: 60px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #section-video {
+                                                                                                                                                                        padding-top: 45px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #video {
+                                                                                                                                                                        width: 350px;
+                                                                                                                                                                        height: 200px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #section-video .botones {
+                                                                                                                                                                        top: 38%;
+                                                                                                                                                                        left: 40%;
+                                                                                                                                                                    }
+                                                                                                                                                                    #section-video i {
+                                                                                                                                                                        font-size: 65px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #join {
+                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                        padding-top: 75px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #join .cajaizquierda {
+                                                                                                                                                                        width: 100%;
+                                                                                                                                                                        margin-left: 0;
+                                                                                                                                                                    }
+                                                                                                                                                                    #join #uno {
+                                                                                                                                                                        left: 29%;
+                                                                                                                                                                        top: 33%;
+                                                                                                                                                                    }
+                                                                                                                                                                    #join .cajaderecha {
+                                                                                                                                                                        width: 100%;
+                                                                                                                                                                    }
+                                                                                                                                                                    #join img {
+                                                                                                                                                                        width: 65%;
+                                                                                                                                                                    }
+                                                                                                                                                                    #join #tres {
+                                                                                                                                                                        top: 75px;
+                                                                                                                                                                        width: 51%;
+                                                                                                                                                                    }
+                                                                                                                                                                    #testimonials {
+                                                                                                                                                                        padding: 0;
+                                                                                                                                                                        margin-top: 385px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #testimonials h2 {
+                                                                                                                                                                        font-size: 25px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #testimonials a {
+                                                                                                                                                                        letter-spacing: 4px;
+                                                                                                                                                                        font-size: 14px;
+                                                                                                                                                                    }
+                                                                                                                                                                    .contenedor-testimonials {
+                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                    }
+                                                                                                                                                                    .testimonials {
+                                                                                                                                                                        width: 100%;
+                                                                                                                                                                        margin-right: 0;
+                                                                                                                                                                    }
+                                                                                                                                                                    .testimonials p {
+                                                                                                                                                                        font-size: 15px;
+                                                                                                                                                                    }
+                                                                                                                                                                    .foto {
+                                                                                                                                                                        height: 60px;
+                                                                                                                                                                        width: 385px;
+                                                                                                                                                                        margin-right: 20px;
+                                                                                                                                                                    }
+                                                                                                                                                                    /* CONTACTO */
+                                                                                                                                                                    #contacto {
+                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                    }
+                                                                                                                                                                    #contacto .izquierda {
+                                                                                                                                                                        width: 85%;
+                                                                                                                                                                    }
+                                                                                                                                                                    #contacto .izquierda {
+                                                                                                                                                                        padding: 26px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #contacto .izquierda p {
+                                                                                                                                                                        letter-spacing: 9px;
+                                                                                                                                                                        font-size: 14px;
+                                                                                                                                                                    }
+                                                                                                                                                                    #contacto .izquierda h2 {
+                                                                                                                                                                        font-size: 37px;
+                                                                                                                                                                        font-weight: 300;
+                                                                                                                                                                    }
+                                                                                                                                                                    #contacto form input[type="text"],
+                                                                                                                                                                    #contacto form input[type="email"],
+                                                                                                                                                                    #contacto form textarea {
+                                                                                                                                                                        width: 96%;
+                                                                                                                                                                    }
+                                                                                                                                                                    #contacto input[type="submit"] {
+                                                                                                                                                                        float: left;
+                                                                                                                                                                    }
+                                                                                                                                                                    #contacto .derecha {
+                                                                                                                                                                        width: 100%;
+                                                                                                                                                                        padding: 0;
+                                                                                                                                                                    }
+                                                                                                                                                                    .gym-hours {
+                                                                                                                                                                        padding: 5px 10px 25px 30px;
+                                                                                                                                                                    }
+                                                                                                                                                                    /* MENU-MOBILE */
+                                                                                                                                                                }
